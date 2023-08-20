@@ -120,18 +120,25 @@
     background-color: #8490ff;
     border: 2px solid transparent;
 }
-.category {
+.card-body {
+    padding: 0;
+}
+.priceList {
+    padding: 20px;
+    text-align: center;
+}
+.priceList h2 {
     background-color: #ddd;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     line-height: 80px;
-    position: relative;
-    left: 90px;
+    margin: auto;
+    margin-bottom: 20px;
     transition: .8s;
 }
 
-.priceList:hover .category{
+.priceList:hover h2{
     transform: rotateY(360deg);
 }
 .priceList:hover{
